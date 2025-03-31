@@ -1,0 +1,43 @@
+html, body {
+    background-color: #333333;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#displayContainer {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2em;
+    color: #fff;
+}
+
+#calcContainer {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.calcRow {
+    display: flex;
+    gap: 0.5em;
+}
+
+.calcRow button {
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+}
